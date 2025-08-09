@@ -2334,7 +2334,7 @@
 
 <h1 id="streaming-coalesce">Streaming Coalesce<a class="headerlink" href="#streaming-coalesce" title="Anchor link to this section">&para;</a></h1>
 <p>A focused example that demonstrates the coalescing policy in the Meridian runtime. It simulates a high-rate sensor stream, converts each reading into a small aggregate, and uses a coalescing edge to merge items under burst pressure without losing information.</p>
-<p>Code location: <code>examples/streaming_coalesce/</code></p>
+<p>Code location: <code>meridian-runtime-examples/examples/streaming_coalesce/</code></p>
 <ul>
 <li>Entry point: <code>examples/streaming_coalesce/main.py</code></li>
 <li>Local README: <code>examples/streaming_coalesce/README.md</code></li>
@@ -2361,7 +2361,7 @@
 </ul>
 <hr />
 <h2 id="how-to-run">How to run<a class="headerlink" href="#how-to-run" title="Anchor link to this section">&para;</a></h2>
-<p>From the repository root:</p>
+<p>From the examples repository root (<code>meridian-runtime-examples</code>):</p>
 <div class="language-bash highlight"><span class="filename">Bash</span><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>python<span class="w"> </span>examples/streaming_coalesce/main.py<span class="w"> </span>--human<span class="w"> </span>--timeout-s<span class="w"> </span><span class="m">5</span>.0
 </span></code></pre></div>
 <p>You should see:</p>
