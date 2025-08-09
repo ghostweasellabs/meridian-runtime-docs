@@ -6,17 +6,17 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Basic node creation, port configuration, and graph wiring with proper lifecycle management.">
+        <meta name="description" content="Examples and notebooks have moved to the meridian-runtime-examples repository.">
       
       
       
-        <link rel="canonical" href="https://ghostweasellabs.github.io/meridian-runtime-docs/examples/minimal-hello/">
+        <link rel="canonical" href="https://ghostweasellabs.github.io/meridian-runtime-docs/guides/examples-migration/">
       
       
-        <link rel="prev" href="../">
+        <link rel="prev" href="../examples/">
       
       
-        <link rel="next" href="../hello-graph/">
+        <link rel="next" href="../migration-extension/">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -24,7 +24,7 @@
     
     
       
-        <title>Minimal Hello - Meridian Runtime</title>
+        <title>Examples & Notebooks Migration - Meridian Runtime</title>
       
     
     
@@ -78,7 +78,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#minimal-hello" class="md-skip">
+        <a href="#examples-notebooks-migration" class="md-skip">
           Skip to content
         </a>
       
@@ -114,7 +114,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Minimal Hello
+              Examples & Notebooks Migration
             
           </span>
         </div>
@@ -265,11 +265,13 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="../../guides/examples/" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../examples/" class="md-tabs__link">
           
   
   
@@ -287,13 +289,11 @@
   
   
   
-    
-  
   
     
     
-      <li class="md-tabs__item md-tabs__item--active">
-        <a href="../" class="md-tabs__link">
+      <li class="md-tabs__item">
+        <a href="../../examples/" class="md-tabs__link">
           
   
   
@@ -600,8 +600,10 @@
       
   
   
+    
   
   
+  
     
     
       
@@ -617,21 +619,22 @@
     
     
       
+        
+        
+      
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
         
           
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
-        
-          
-          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
             
   
   
@@ -644,7 +647,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             Guides
@@ -658,7 +661,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../guides/examples/" class="md-nav__link">
+      <a href="../examples/" class="md-nav__link">
         
   
   
@@ -678,10 +681,32 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../guides/examples-migration/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Examples Migration
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -692,6 +717,71 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#why-the-change" class="md-nav__link">
+    <span class="md-ellipsis">
+      Why the change?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#where-to-find-them" class="md-nav__link">
+    <span class="md-ellipsis">
+      Where to find them
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-run-an-example" class="md-nav__link">
+    <span class="md-ellipsis">
+      How to run an example
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#contributing-examples" class="md-nav__link">
+    <span class="md-ellipsis">
+      Contributing examples
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#impact-on-docs-and-ci" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impact on docs and CI
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -704,7 +794,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../guides/migration-extension/" class="md-nav__link">
+      <a href="../migration-extension/" class="md-nav__link">
         
   
   
@@ -737,7 +827,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../guides/local-development/" class="md-nav__link">
+      <a href="../local-development/" class="md-nav__link">
         
   
   
@@ -764,8 +854,6 @@
       
   
   
-    
-  
   
   
     
@@ -789,23 +877,22 @@
     
     
       
-        
-        
-      
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../" class="md-nav__link ">
+            <a href="../../examples/" class="md-nav__link ">
               
   
   
@@ -818,13 +905,13 @@
             </a>
             
               
-              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="">
+              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="0">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
             Examples
@@ -837,32 +924,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    Minimal Hello
-    
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../examples/minimal-hello/" class="md-nav__link">
         
   
   
@@ -873,119 +938,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#what-it-does" class="md-nav__link">
-    <span class="md-ellipsis">
-      What it does
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="What it does">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#nodes" class="md-nav__link">
-    <span class="md-ellipsis">
-      Nodes
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#wiring" class="md-nav__link">
-    <span class="md-ellipsis">
-      Wiring
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#lifecycle" class="md-nav__link">
-    <span class="md-ellipsis">
-      Lifecycle
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#how-to-run" class="md-nav__link">
-    <span class="md-ellipsis">
-      How to run
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#implementation-notes" class="md-nav__link">
-    <span class="md-ellipsis">
-      Implementation notes
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Implementation notes">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#key-code-patterns" class="md-nav__link">
-    <span class="md-ellipsis">
-      Key Code Patterns
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#what-to-look-for" class="md-nav__link">
-    <span class="md-ellipsis">
-      What to look for
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#source-references" class="md-nav__link">
-    <span class="md-ellipsis">
-      Source references
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -998,7 +950,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../hello-graph/" class="md-nav__link">
+      <a href="../../examples/hello-graph/" class="md-nav__link">
         
   
   
@@ -1021,7 +973,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../sentiment/" class="md-nav__link">
+      <a href="../../examples/sentiment/" class="md-nav__link">
         
   
   
@@ -1044,7 +996,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../streaming-coalesce/" class="md-nav__link">
+      <a href="../../examples/streaming-coalesce/" class="md-nav__link">
         
   
   
@@ -1067,7 +1019,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../pipeline-demo/" class="md-nav__link">
+      <a href="../../examples/pipeline-demo/" class="md-nav__link">
         
   
   
@@ -2064,93 +2016,45 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#what-it-does" class="md-nav__link">
+  <a href="#why-the-change" class="md-nav__link">
     <span class="md-ellipsis">
-      What it does
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="What it does">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#nodes" class="md-nav__link">
-    <span class="md-ellipsis">
-      Nodes
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#wiring" class="md-nav__link">
-    <span class="md-ellipsis">
-      Wiring
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#lifecycle" class="md-nav__link">
-    <span class="md-ellipsis">
-      Lifecycle
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#how-to-run" class="md-nav__link">
-    <span class="md-ellipsis">
-      How to run
+      Why the change?
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#implementation-notes" class="md-nav__link">
+  <a href="#where-to-find-them" class="md-nav__link">
     <span class="md-ellipsis">
-      Implementation notes
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Implementation notes">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#key-code-patterns" class="md-nav__link">
-    <span class="md-ellipsis">
-      Key Code Patterns
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#what-to-look-for" class="md-nav__link">
-    <span class="md-ellipsis">
-      What to look for
+      Where to find them
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#source-references" class="md-nav__link">
+  <a href="#how-to-run-an-example" class="md-nav__link">
     <span class="md-ellipsis">
-      Source references
+      How to run an example
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#contributing-examples" class="md-nav__link">
+    <span class="md-ellipsis">
+      Contributing examples
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#impact-on-docs-and-ci" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impact on docs and CI
     </span>
   </a>
   
@@ -2175,32 +2079,26 @@
       
       
       
-        <span class="md-tag">basics</span>
-      
-    
-      
-      
-      
         <span class="md-tag">examples</span>
       
     
       
       
       
-        <span class="md-tag">lifecycle</span>
+        <span class="md-tag">migration</span>
       
     
       
       
       
-        <span class="md-tag">minimal</span>
+        <span class="md-tag">notebooks</span>
       
     
   </nav>
 
 
   
-    <a href="https://github.com/GhostWeaselLabs/meridian-runtime/edit/main/examples/minimal-hello.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
+    <a href="https://github.com/GhostWeaselLabs/meridian-runtime/edit/main/guides/examples-migration.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75z"/></svg>
     </a>
@@ -2208,90 +2106,41 @@
   
 
 
-<h1 id="minimal-hello">Minimal Hello<a class="headerlink" href="#minimal-hello" title="Anchor link to this section">&para;</a></h1>
-<p>A complete, runnable example demonstrating basic node creation and graph wiring with proper lifecycle management. This example shows the fundamental building blocks of the Meridian runtime.</p>
-<p>Code location: <code>meridian-runtime-examples/examples/minimal_hello/</code></p>
+<h1 id="examples-notebooks-migration">Examples &amp; Notebooks Migration<a class="headerlink" href="#examples-notebooks-migration" title="Anchor link to this section">&para;</a></h1>
+<p>Examples and notebooks were moved out of this repository into a dedicated public repository: <code>meridian-runtime-examples</code>.</p>
+<h2 id="why-the-change">Why the change?<a class="headerlink" href="#why-the-change" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>Entry point: <code>meridian-runtime-examples/examples/minimal_hello/main.py</code></li>
+<li>Keep this repo focused on the core runtime.</li>
+<li>Enable faster iteration and community contributions for examples.</li>
+<li>CI separation: example execution and notebook checks run in their own pipelines.</li>
 </ul>
-<hr />
-<h2 id="what-it-does">What it does<a class="headerlink" href="#what-it-does" title="Anchor link to this section">&para;</a></h2>
-<h3 id="nodes">Nodes<a class="headerlink" href="#nodes" title="Anchor link to this section">&para;</a></h3>
+<h2 id="where-to-find-them">Where to find them<a class="headerlink" href="#where-to-find-them" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>ProducerNode</strong> — emits a bounded sequence of integers (0-4) on each scheduler tick</li>
-<li><strong>Consumer</strong> — receives and prints messages, tracking all received values</li>
+<li>Repository: <code>https://github.com/GhostWeaselLabs/meridian-runtime-examples</code></li>
+<li>Layout:</li>
+<li><code>examples/</code>: runnable Python example projects</li>
+<li><code>notebooks/</code>: tutorials, interactive examples, and research notebooks</li>
 </ul>
-<h3 id="wiring">Wiring<a class="headerlink" href="#wiring" title="Anchor link to this section">&para;</a></h3>
-<ul>
-<li><code>ProducerNode(output)</code> → <code>Consumer(in)</code>: bounded edge with capacity 8</li>
-</ul>
-<h3 id="lifecycle">Lifecycle<a class="headerlink" href="#lifecycle" title="Anchor link to this section">&para;</a></h3>
-<ul>
-<li>Demonstrates proper node lifecycle management with <code>on_start</code> and <code>on_stop</code> methods</li>
-<li>Shows bounded message emission with <code>max_count</code> parameter</li>
-<li>Includes structured logging with contextual fields</li>
-</ul>
-<hr />
-<h2 id="how-to-run">How to run<a class="headerlink" href="#how-to-run" title="Anchor link to this section">&para;</a></h2>
-<p>From the examples repository root (<code>meridian-runtime-examples</code>):</p>
-<div class="language-bash highlight"><span class="filename">Bash</span><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>python<span class="w"> </span>examples/minimal_hello/main.py
+<h2 id="how-to-run-an-example">How to run an example<a class="headerlink" href="#how-to-run-an-example" title="Anchor link to this section">&para;</a></h2>
+<div class="language-bash highlight"><span class="filename">Bash</span><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/GhostWeaselLabs/meridian-runtime-examples.git
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="nb">cd</span><span class="w"> </span>meridian-runtime-examples
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>python<span class="w"> </span>examples/hello_graph/main.py
 </span></code></pre></div>
-<p>You should see:</p>
-<ul>
-<li>Structured startup logs from both nodes</li>
-<li>Message emission logs with sequence numbers</li>
-<li>Consumer receiving and printing messages</li>
-<li>Structured shutdown logs with final counts</li>
-<li>Success confirmation message</li>
-</ul>
-<div class="admonition tip">
-<p class="admonition-title">Tip</p>
-<p>This example is perfect for understanding the basic concepts before moving to more complex examples.</p>
-</div>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>The example uses a deterministic sequence (0-4) to demonstrate predictable behavior.</p>
-</div>
-<hr />
-<h2 id="implementation-notes">Implementation notes<a class="headerlink" href="#implementation-notes" title="Anchor link to this section">&para;</a></h2>
-<ul>
-<li><strong>Node Lifecycle</strong>: Both nodes implement proper <code>on_start</code> and <code>on_stop</code> methods</li>
-<li><strong>Structured Logging</strong>: Uses contextual logging with node names and metadata</li>
-<li><strong>Bounded Emission</strong>: Producer stops after emitting <code>max_count</code> messages</li>
-<li><strong>Message Tracking</strong>: Consumer maintains a list of received values for validation</li>
-<li><strong>Simple Wiring</strong>: Single edge connection demonstrating basic graph construction</li>
-</ul>
-<h3 id="key-code-patterns">Key Code Patterns<a class="headerlink" href="#key-code-patterns" title="Anchor link to this section">&para;</a></h3>
-<div class="language-python highlight"><span class="filename">Python</span><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="c1"># Bounded message emission</span>
-</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="k">def</span><span class="w"> </span><span class="nf">_handle_tick</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
-</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>    <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">count</span> <span class="o">&lt;</span> <span class="bp">self</span><span class="o">.</span><span class="n">max_count</span><span class="p">:</span>
-</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>        <span class="bp">self</span><span class="o">.</span><span class="n">emit</span><span class="p">(</span><span class="s2">&quot;output&quot;</span><span class="p">,</span> <span class="n">Message</span><span class="p">(</span><span class="nb">type</span><span class="o">=</span><span class="n">MessageType</span><span class="o">.</span><span class="n">DATA</span><span class="p">,</span> <span class="n">payload</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">count</span><span class="p">))</span>
-</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a>        <span class="bp">self</span><span class="o">.</span><span class="n">count</span> <span class="o">+=</span> <span class="mi">1</span>
-</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a>
-</span><span id="__span-1-7"><a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a><span class="c1"># Message tracking</span>
-</span><span id="__span-1-8"><a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a><span class="k">def</span><span class="w"> </span><span class="nf">_handle_message</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">port</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">msg</span><span class="p">:</span> <span class="n">Message</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
-</span><span id="__span-1-9"><a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a>    <span class="k">if</span> <span class="n">port</span> <span class="o">==</span> <span class="s2">&quot;in&quot;</span><span class="p">:</span>
-</span><span id="__span-1-10"><a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a>        <span class="bp">self</span><span class="o">.</span><span class="n">values</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">msg</span><span class="o">.</span><span class="n">payload</span><span class="p">)</span>
-</span><span id="__span-1-11"><a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a>        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Consumer received: </span><span class="si">{</span><span class="n">msg</span><span class="o">.</span><span class="n">payload</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+<p>Using <code>uv</code>:</p>
+<div class="language-bash highlight"><span class="filename">Bash</span><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/GhostWeaselLabs/meridian-runtime-examples.git
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="nb">cd</span><span class="w"> </span>meridian-runtime-examples
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>uv<span class="w"> </span>run<span class="w"> </span>python<span class="w"> </span>examples/sentiment/main.py<span class="w"> </span>--human<span class="w"> </span>--timeout-s<span class="w"> </span><span class="m">6</span>.0
 </span></code></pre></div>
-<hr />
-<h2 id="what-to-look-for">What to look for<a class="headerlink" href="#what-to-look-for" title="Anchor link to this section">&para;</a></h2>
+<h2 id="contributing-examples">Contributing examples<a class="headerlink" href="#contributing-examples" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>Clean Lifecycle</strong>: Proper startup and shutdown sequence</li>
-<li><strong>Structured Logs</strong>: Contextual logging with node names and metadata</li>
-<li><strong>Bounded Behavior</strong>: Predictable message count (5 messages total)</li>
-<li><strong>Simple Topology</strong>: Single producer-consumer pattern</li>
-<li><strong>Validation</strong>: Final assertion confirms all messages were processed</li>
+<li>Open PRs against <code>meridian-runtime-examples</code>.</li>
+<li>Follow the repo README for contribution and CI details.</li>
 </ul>
-<hr />
-<h2 id="source-references">Source references<a class="headerlink" href="#source-references" title="Anchor link to this section">&para;</a></h2>
+<h2 id="impact-on-docs-and-ci">Impact on docs and CI<a class="headerlink" href="#impact-on-docs-and-ci" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>Main entry and graph wiring:<ul>
-<li><code>examples/minimal_hello/main.py</code></li>
+<li>Documentation in this repo links to the external examples repo.</li>
+<li>This repo no longer runs example smoke tests; those are handled in the examples repo CI.</li>
 </ul>
-</li>
-</ul>
-<p>Use this as the foundation for understanding Meridian runtime concepts before exploring more complex examples. </p>
 
 
 
@@ -2330,7 +2179,7 @@
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../" class="md-footer__link md-footer__link--prev" aria-label="Previous: Overview">
+          <a href="../examples/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Examples">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -2340,20 +2189,20 @@
                 Previous
               </span>
               <div class="md-ellipsis">
-                Overview
+                Examples
               </div>
             </div>
           </a>
         
         
           
-          <a href="../hello-graph/" class="md-footer__link md-footer__link--next" aria-label="Next: Hello Graph">
+          <a href="../migration-extension/" class="md-footer__link md-footer__link--next" aria-label="Next: Migration &amp; extension">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Hello Graph
+                Migration & extension
               </div>
             </div>
             <div class="md-footer__button md-icon">
